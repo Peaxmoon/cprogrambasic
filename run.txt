@@ -1,0 +1,8 @@
+Everything Starts with saving a program.👵🏿
+
+to run we must open powershell in terminal
+then in terminal :-
+
+To compile : gcc -o fileName fileName.c //giving permission to compile a file and store in another newfile
+
+to run :   ./filename //the file compiled by c to be executed XD
