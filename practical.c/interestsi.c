@@ -1,3 +1,4 @@
+//1.	WAP a program to calculate Simple interest.
 #include <stdio.h>
 int main()
 {

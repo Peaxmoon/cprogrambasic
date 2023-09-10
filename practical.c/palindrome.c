@@ -1,4 +1,3 @@
-
 //	WAP to check whether a number is a palindrome number.
 #include <stdio.h>
 int main()
