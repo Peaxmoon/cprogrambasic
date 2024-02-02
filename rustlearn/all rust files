@@ -24,6 +24,14 @@ fn main() {
 fn main() {
     let x: i32 = 4; // explicit variable decleration 
     let x = 5;      // implicit variable decleration
+    i8 
+    i16
+    i32
+    i64 // these can be used to store negative as well as positive number
+    i128 // these all are signed int and we cant make it float to store decimal 
+    let x: u32 = 23; //these type can only be used to store positive inteager. It is unsigned inteager...
+    // i8 contains 255 values from -128 to 127
+    // u8 contains 255 values from 0 to 255
 }
 
 
