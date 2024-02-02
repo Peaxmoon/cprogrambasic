@@ -7,6 +7,29 @@ fn main() {
 
 
 
+fn main() {
+    const SECONDS_IN_MINUTE: u32 = 60;
+    println!("{}", SECONDS_IN_MINUTE);
+}
+
+
+
+fn main() {
+    const SECONDS_IN_MINUTE: u32 = 60;
+    const SECONDS_IN_MINUTE: u32 = 40;//constant cant be redeclared this is wrong technique...
+
+    println!("{}", SECONDS_IN_MINUTE);
+}
+
+fn main() {
+    let x: i32 = 4; // explicit variable decleration 
+    let x = 5;      // implicit variable decleration
+}
+
+
+
+
+
 
 
 
