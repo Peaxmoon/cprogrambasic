@@ -1,6 +1,6 @@
 fn main() {
-    let mut x = 4;
-    println!("x is : {}",x);
-    x = 2;
-    println!("x is : {} ", x);
+    const SECONDS_IN_MINUTE: u32 = 60;
+    const SECONDS_IN_MINUTE: u32 = 40;
+
+    println!("{}", SECONDS_IN_MINUTE);
 }
