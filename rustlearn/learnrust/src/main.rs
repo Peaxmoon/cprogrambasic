@@ -1,4 +1,5 @@
 fn main() {
-    let x: i32 = 4;
-    let x = 5;
+    let tup: (i32, bool, char) = (1, true, 's');
+    println!("{}", tup.0);
+
 }

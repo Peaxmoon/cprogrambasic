@@ -32,6 +32,21 @@ fn main() {
     let x: u32 = 23; //these type can only be used to store positive inteager. It is unsigned inteager...
     // i8 contains 255 values from -128 to 127
     // u8 contains 255 values from 0 to 255
+    let floating_point = 20.90;
+    let true_or_false: bool = true;
+    let letter = ';'
+
+    let tup: (i32, bool, char) = (1, true, 's');
+    tup.0 = 20;// assigning a new value by indexing to one element in an tuple
+    tup = (20, false, 'a');// changing whole tuple value
+    println!("{}", tup.0);// tup.1 for index 1 which is true...
+
+// array
+    let arr = [1,3, 4, 4, 2];
+    arr[4] =  3;
+    println!("{}", arr[4]);
+
+
 }
 
 
