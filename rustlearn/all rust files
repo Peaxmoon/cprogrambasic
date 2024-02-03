@@ -42,8 +42,9 @@ fn main() {
     println!("{}", tup.0);// tup.1 for index 1 which is true...
 
 // array
-    let arr = [1,3, 4, 4, 2];
-    arr[4] =  3;
+    let mut arr = [1,3, 4, 4, 2];// mut stands for mutable and new value can be assigned to mutable variables
+    //let mut arr: [i32; 5] = [1,3, 4, 4, 2]; explicit defining
+    arr[4] =  3;// assigning new variable to mutable element in an array's 4th element
     println!("{}", arr[4]);
 
 

@@ -1,5 +1,7 @@
+use std::io
+
 fn main() {
-    let tup: (i32, bool, char) = (1, true, 's');
-    println!("{}", tup.0);
+    let mut input = String::new();
+    io::stdin().read_line(&mut input)
 
 }
