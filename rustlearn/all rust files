@@ -48,6 +48,37 @@ fn main() {
     println!("{}", arr[4]);
 
 
+
+    data types in rust 
+        primitive data type fundamental
+            scalar primitive data type
+            compound primitive data type
+
+
+    let x =3; implicit decleration
+    let x: i32 = 3; explicit decleration
+
+
+
+    console input from user from rust library 
+    rust imports some fuctions and user input needs to be imported 
+    using crate/package we have module which has specific functionality
+    use std::io;
+
+    use std::io;
+
+        fn main() {
+            let mut input = String::new();
+            io::stdin().read_line(&mut input).expect("failed to read line");
+            //standard input from user terminal using mutable refrence 
+            prinln!("{}", input);
+
+
+    
+
+}
+
+
 }
 
 
