@@ -104,11 +104,12 @@ fn add_numbers(x: i32, y: i32) {
     println!("The sum is : {}",x+y);
 }
 
-
+ 
+          //It is also an expression
 let number = {
-    let x =3;
-    x+1;
-}
+    let x = 3;
+    x + 1
+};
 
 statements / expressions diffrence
 fuctions can return expressions but cannot return statements in rust....
@@ -117,4 +118,31 @@ add_numbers(x: i32, y: i32)  //statements
 let x = 22; and add_numbers(29,30);//expressions macro, fuction call, numbers, arithmetic etc are expressions 
 
 
+//return types 
+fn main() {
+    let result = add_numbers(2, 4);
+    println("{}", result);
+}
+
+fn add_numbers(x: i32, y: i32) {
+    x + y  //to return write the return statement at the end of fuction without semicolon.
+}
+
+fn add_numbers(x: i32, y: i32) {
+    let result = x + y;
+    return x + y;  //It can also be used to return value..
+}
+
+fn add_numbers(x: i32, y: i32) {
+    let result = x + y;
+    result  //It can also be used to return value..
+}
+
+fn add_numbers(x: i32, y: i32) {
+    let result = x + y;
+    if result > 10 {
+        return result//it will return  result early 
+    }
+    result  //It can also be used to return value..
+}
 
