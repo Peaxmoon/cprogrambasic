@@ -72,11 +72,13 @@ fn main() {
             io::stdin().read_line(&mut input).expect("failed to read line");
             //standard input from user terminal using mutable refrence 
             prinln!("{}", input);
+        }
+if overflow occurs there is serious problem while declaring variable explicitly
+let x: i8 =12;
+let y: u8 =10;
+let z = x + y;//this is not posible diffrent data types cannot be mathed
+println!("{}", z);
 
-
-    
-
-}
 
 
 }
