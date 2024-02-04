@@ -95,9 +95,26 @@ println!("{}", z);
 }
 
 
+//arithmetic with fuctions 
+fn main() {
+    add_numbers(29,30);
+}
+
+fn add_numbers(x: i32, y: i32) {
+    println!("The sum is : {}",x+y);
+}
 
 
+let number = {
+    let x =3;
+    x+1;
+}
 
+statements / expressions diffrence
+fuctions can return expressions but cannot return statements in rust....
+
+add_numbers(x: i32, y: i32)  //statements 
+let x = 22; and add_numbers(29,30);//expressions macro, fuction call, numbers, arithmetic etc are expressions 
 
 
 

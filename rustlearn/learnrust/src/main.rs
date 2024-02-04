@@ -1,10 +1,7 @@
 fn main() {
-    test_one();
-
-    println!("Hello world");
-    test_one();
+    add_numbers(29,30);
 }
 
-fn test_one() {
-    println!("test has been done....");
+fn add_numbers(x: i32, y: i32) {
+    println!("The sum is : {}",x+y);
 }
