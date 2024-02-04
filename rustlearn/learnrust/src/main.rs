@@ -1,5 +1,5 @@
 fn main() {
-    add_numbers(29,30);
+    add_numbers(232,232);
 }
 
 fn add_numbers(x: i32, y: i32) {
