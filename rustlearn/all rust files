@@ -79,7 +79,18 @@ let y: u8 =10;
 let z = x + y;//this is not posible diffrent data types cannot be mathed
 println!("{}", z);
 
+//fuctions starting
 
+        fn main() {
+            test_one();
+
+            println!("Hello world");
+            test_one();
+        }
+        
+        fn test_one() {
+            println!("test has been done....");
+        }
 
 }
 
