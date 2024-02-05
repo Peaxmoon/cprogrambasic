@@ -5,4 +5,4 @@ then in terminal :-
 
 To compile : gcc -o fileName fileName.c //giving permission to compile a .c extension file and store in another newfile
 
-to run :   ./filename //the file compiled by c to be executed XD
+to run :   ./filename //the file compiled by c to be executed XD...
