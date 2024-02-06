@@ -1,12 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
-import Navbar from './components/Navbar';
+import React from 'react';
+import './App.css'; // Import your main stylesheet
+import Header from './components/Header';
+import MainContent from './components/MainContent';
+import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="blank">Sujjal</div>
+    <div className="app">
+      <Header />
+      <MainContent />
+      <Footer />
+    </div>
   );
-  <Navbar></Navbar>
 }
 
 export default App;
