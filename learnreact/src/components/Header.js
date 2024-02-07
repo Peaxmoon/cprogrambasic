@@ -1,16 +1,30 @@
+// Header.js
 import React from 'react';
+import './header.css';
 
 const Header = () => {
+  const scrollToSection = (sectionId) => {
+    const section = document.getElementById(sectionId);
+    if (section) {
+      section.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
-    <header>
-      <nav>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
+    <nav>
+      <a href="#" onClick={() => scrollToSection('home')}>
+        🏠 Home
+      </a>
+      <a href="#" onClick={() => scrollToSection('about')}>
+        ℹ️ About
+      </a>
+      <a href="#" onClick={() => scrollToSection('contact')}>
+        ✉️ Contact
+      </a>
+      <a href="#" onClick={() => scrollToSection('socialLinks')}>
+        🔗 Social Media links
+      </a>
+    </nav>
   );
 };
 
