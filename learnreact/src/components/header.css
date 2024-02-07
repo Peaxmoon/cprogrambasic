@@ -15,15 +15,4 @@ nav {
     color: yellow;
   }
   
-  /* Example styles for the icon */
-  a::after {
-    content: '🚀'; /* Add your preferred emoji or character here */
-    display: inline-block;
-    margin-left: 5px; /* Optional margin between the link text and emoji */
-    transition: transform 0.5s ease-in-out;
-  }
-  
-  a:hover::after {
-    transform: scale(1.5);
-  }
-  
+ 
