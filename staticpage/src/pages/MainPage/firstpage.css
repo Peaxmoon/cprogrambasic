@@ -1,9 +1,24 @@
-.introduction, .portfolio, .slanted-background, div {
+.introduction {
+    font-size: 80px;
+    font-family: YAFdJiuMZaE-0;
+    letter-spacing: -0.2em;
+    font-weight: 400;
+    color: rgba(0, 247, 255, 0.258);
     text-align: center;
 }
 
+.portfolio {
+    font-weight: 500;
+    font-size: 80px;
+    font-family: sans-serif;
+    letter-spacing: 0.1em;
+    margin-bottom: 10px;
+    text-align: center;
+    color: black;
+}
+
 .slanted-background {
-    position: relative; /* Change from absolute to relative */
+    position: relative;
     overflow: hidden;
     background-image: url('./Neymar.webp');
     background-size: cover;
@@ -14,14 +29,24 @@
 }
 
 .slanted-background img {
-    width: 100%; /* Change from 50% to 100% */
+    width: 100%;
     height: auto;
     display: block;
     margin: 0 auto;
     padding: 0;
     border: 0;
+    position: relative; /* Set position to relative */
+}
+
+.slanted-background div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1; /* Set a higher z-index to make it appear above the image */
 }
 
 h1 {
-    margin-bottom: 10px; /* Add margin to create space between headings */
+    margin-bottom: 10px;
+    margin-top: 10px;
 }

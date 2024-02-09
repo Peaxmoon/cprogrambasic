@@ -7,12 +7,13 @@ const FirstPage = () => {
             <div className="introduction"> 
                 <h1>Sujjal Khadka</h1>
             </div>
-            <div className="portfolio"> 
-                <h1>Portfolio</h1>
-            </div>
             <div className="slanted-background">
                 <img src="./Neymar.webp" alt="" />
             </div>
+            <div className="portfolio"> 
+                <h1>Portfolio</h1>
+            </div>
+           
             <div> 
                 <h1>Noob and NPC</h1>
             </div>
