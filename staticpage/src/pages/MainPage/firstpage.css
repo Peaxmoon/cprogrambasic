@@ -1,34 +1,27 @@
-.introduction {
-    font-size: 80px;
-    font-family: YAFdJiuMZaE-0;
-    letter-spacing: -0.2em;
-    font-weight: 400;
-    color : rgba(0, 247, 255, 0.258);
-
-}
-
-.portfolio {
-    font-weight: 500;
-    font-size: 80px;
-    font-family: sans-serif;
-    letter-spacing: 0.1em;
-    margin-bottom: 10px;
-    color: white;
-    font-size: 24px;
-    font-weight: bold;
+.introduction, .portfolio, .slanted-background, div {
     text-align: center;
-    z-index: 1; /* Ensure the text is on top of the image */
 }
 
 .slanted-background {
-    position: relative;
+    position: relative; /* Change from absolute to relative */
     overflow: hidden;
-    background-image: url('./Neymar.webp'); /* Adjust the path to your image */
+    background-image: url('./Neymar.webp');
     background-size: cover;
-    height: 100vh; /* Adjust the height as needed */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 1;
-  }
-  
+    height: 50vh;
+    width: 50vh;
+    margin: 0 auto;
+    transform: rotate(-5deg);
+}
+
+.slanted-background img {
+    width: 100%; /* Change from 50% to 100% */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    border: 0;
+}
+
+h1 {
+    margin-bottom: 10px; /* Add margin to create space between headings */
+}
