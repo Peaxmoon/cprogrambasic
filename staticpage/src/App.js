@@ -4,6 +4,7 @@ import './App.css';
 import Header from './components/Header/Header';
 import Greeting from './greeting';
 import FirstPage from './pages/MainPage/Firstpage';
+import About from './pages/About/About'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Header />
       <FirstPage />
       <Greeting />
+      <About />
       {/* Add other components and content here */}
       </div>
       {/* <header className="App-header">
