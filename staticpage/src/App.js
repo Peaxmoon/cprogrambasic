@@ -1,40 +1,28 @@
 // import logo from './logo.svg';
 //motivation https://completeon2-12-2024.my.canva.site/
+import React from 'react';
+import Navbar from './components/Navbar';
 import './App.css';
-import Header from './components/Header/Header';
-import Greeting from './greeting';
-import FirstPage from './pages/MainPage/Firstpage';
-import About from './pages/About/About'
+import Home from './components/pages/Home';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import Services from './components/pages/Services';
+import Products from './components/pages/Products';
+import SignUp from './components/pages/SignUp';
+
 
 function App() {
   return (
-    <div className="App">
-      <div>
-      <Header />
-      <FirstPage />
-      <Greeting />
-      <About />
-      {/* Add other components and content here */}
-      </div>
-      {/* <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header> */}
-      
-    <div>
-      
-    </div>
-    </div>
+    <>
+      <Router>
+        <Navbar />
+        <Switch>
+          <Route path='/' exact component={Home} />
+          <Route path='/services' component={Services} />
+          <Route path='/products' component={Products} />
+          <Route path='/sign-up' component={SignUp} />
+        </Switch>
+      </Router>
+    </>
   );
 }
 
