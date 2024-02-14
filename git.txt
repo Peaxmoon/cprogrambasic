@@ -6,3 +6,10 @@ git commit -am "The commit text"
 
 -
 git push
+
+
+
+Other long way is to :
+git add .
+git commit -m "The commit text"
+git push
