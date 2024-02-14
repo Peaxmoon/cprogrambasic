@@ -13,3 +13,7 @@ Other long way is to :
 git add .
 git commit -m "The commit text"
 git push
+
+
+there are many other shortcut but i am too lazy to search them 
+I think first one is scam or i don't know how to use it
