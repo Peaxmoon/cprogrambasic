@@ -1,4 +1,8 @@
 How to push ito github with shortcut:
 
--git commit -am "The commit text"
--git push
+
+-
+git commit -am "The commit text"
+
+-
+git push
